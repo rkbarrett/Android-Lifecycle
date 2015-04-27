@@ -9,9 +9,9 @@ import java.util.Date;
  */
 public class LifecycleInfo {
     private String mMethodName;
-    private Date mTimeStamp;
+    private String mTimeStamp;
 
-    public LifecycleInfo(String methodName, Date timeStamp) {
+    public LifecycleInfo(String methodName, String timeStamp) {
         mMethodName = methodName;
         mTimeStamp = timeStamp;
     }
@@ -20,7 +20,7 @@ public class LifecycleInfo {
         return mMethodName;
     }
 
-    public Date getTimeStamp() {
+    public String getTimeStamp() {
         return mTimeStamp;
     }
 }
