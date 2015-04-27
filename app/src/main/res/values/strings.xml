@@ -3,4 +3,6 @@
 
     <string name="android_lifecycle">My Activity Lifecycle</string>
     <string name="action_settings">Settings</string>
+    <string name="method_name">Method Name</string>
+    <string name="time_stamp">Time</string>
 </resources>
